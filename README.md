@@ -3,7 +3,7 @@
 This is a demo site that when configured with Amplify will allow any user to upload a file to an s3 bucket.
 
 
-**Bold** Security: ANYONE CAN UPLOAD - there are no permission checks on who can upload a file
+**Security: ANYONE CAN UPLOAD - there are no permission checks on who can upload a file**
 
 ## Amplify setup
 
@@ -25,7 +25,7 @@ A message will respond saying you cannot add storage without first adding authen
 Select 'Y' to adding authentication and select defaults for all auth categories <br />
 Amplify will ask who you want to be able to access the s3 bucket, select authenticated users and guests <br />
 This is what allows anyone to use the site. 
-In permissions give both authenticated users and guests permission to create/update. **Bold** DO NOT GIVE ANY OTHER PERMISSIONS <br />
+In permissions give both authenticated users and guests permission to create/update. **DO NOT GIVE ANY OTHER PERMISSIONS** <br />
 
 ### `amplify add hosting`
 
